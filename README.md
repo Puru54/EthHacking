@@ -56,7 +56,8 @@ sudo macchanger -r wlan0 # OR sudo macchanger --mac=00:11:22:33:44:55 wlan0
 
 3. **Bring interface up & verify:**
 ```bash
-sudo ifconfig wlan0 up macchanger -s wlan0
+sudo ifconfig wlan0 up
+macchanger -s wlan0
 ```
 
 ---
@@ -105,7 +106,8 @@ Use tools like:
 ### a. **Enable IP Forwarding & Start BetterCap**
 
 ```bash
-echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward sudo bettercap -iface wlan0
+echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+sudo bettercap -iface wlan0
 ```
 
 ### b. **Run ARP Spoofing in BetterCap**
