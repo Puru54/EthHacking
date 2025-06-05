@@ -12,7 +12,7 @@ A curated collection of hands-on cybersecurity lab notes and guides, primarily f
 - [Crunch Wordlist Generation Practical Lab Guide](./Crunch%20Wordlist%20Generation%20Practical%20Lab%20Guide.md)
 - [Network Mapping with Nmap Comprehensive Practical Lab Guide](./Network%20Mapping%20with%20Nmap%20Comprehensive%20Practical%20Lab%20Guide.md)
 - [Setting Up OpenSSH Server on Windows VM](./Setting%20Up%20OpenSSH%20Server%20on%20Windows%20VM.md)
-- [SSH Two-Factor Authentication Setup on Ubuntu VM](./Ssh%202fa%20Setup.md)
+- [SSH Two-Factor Authentication Setup on Ubuntu VM](./SSH%20Two-Factor%20Authentication%20Setup%20on%20Ubuntu%20(Google%20Authenticator).md)
 
 ###  Study Notes
 - [Bandit](./Bandit.md)
